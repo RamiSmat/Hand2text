@@ -16,6 +16,17 @@ Navigate to frontend and start server
 ```bash
 npm i && npm start
 ```
+
+You can use docker compose for an easier setup:
+
+First build the images:
+```bash
+docker-compose build
+```
+Then run the containers:
+```bash
+docker-compose up
+```
 ## Usage
 write any text you want in the specified area , click the detect text button. Your results should be there!
 
